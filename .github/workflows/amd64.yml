@@ -5,7 +5,7 @@ on:
       docker_images:
         description: 'ttonde'
         required: true
-        default: 'latest:ttonde'  # 设置默认的 Docker 镜像列表
+        default: 'ttonde'  # 设置默认的 Docker 镜像列表
 
 jobs:
   pull_and_package:
