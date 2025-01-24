@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       docker_images:
-        description: 'tiptime/ttonde'
+        description: 'ttonde'
         required: true
         default: 'alpine:latest,busybox:stable-glibc'  # 设置默认的 Docker 镜像列表
 
